@@ -1,0 +1,48 @@
+body {
+  background-image:url('images/bg.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+header {
+  padding: 45px 0;
+}
+
+header img {
+  margin-bottom: 25px;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.days,.minutes,.hours,.seconds {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255,255,255, 0.30);
+  font-family: 'Gemunu Libre', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.clock {
+  margin: 25px 0;
+}
+
+.clock p {
+  margin: 0;
+}
+
+.clock span {
+  display: block;
+  font-weight: 200;
+  font-size: 48px;
+}
